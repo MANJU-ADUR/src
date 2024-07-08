@@ -1,0 +1,92 @@
+/* EmployeeNavbar.css */
+.hr_navbar {
+    background-color: #1890ff;
+    color: white;
+    padding: 10px 50px;
+    width: 100vw;
+}
+
+.hr_navbar .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr_navbar .nav nav {
+    display: flex;
+    gap: 20px;
+}
+
+.hr_navbar .nav .logo {
+    flex: 1;
+    /* Takes remaining space */
+    text-align: center;
+}
+
+.hr_navbar .nav .username {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+
+.hr_navbar .nav .username button {
+    background-color: transparent;
+    border: none;
+    color: #1890ff;
+    background-color: black;
+    cursor: pointer;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Example of media query for responsiveness */
+@media (max-width: 768px) {
+    .hr_navbar .nav nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Example of mobile-friendly navigation */
+@media (max-width: 480px) {
+    .hr_navbar .nav nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .hr_navbar .nav .username {
+        font-size: 14px;
+    }
+}
+
+/* Example of adjusting icon size */
+.hr_navbar .nav .username svg {
+    font-size: 24px;
+    /* Adjust according to your design */
+}
+
+/* Example of adjusting text size */
+.hr_navbar .nav .username span {
+    font-size: 16px;
+    color: black;
+    /* Adjust according to your design */
+}
+
+.hr_navbar .nav nav a {
+    font-weight: bold;
+    color: black;
+    padding: 0 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.hr_navbar .nav nav a:hover {
+    font-weight: bold;
+    color: #1890ff;
+    background-color: black;
+    transition: 0.5s;
+
+}

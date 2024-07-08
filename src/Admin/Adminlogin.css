@@ -1,0 +1,36 @@
+.login-container {
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-top: 10vh;
+    /* Adjust the top margin as per your design */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 550px;
+    border: 1px solid black;
+}
+
+.success-message {
+    color: #52c41a;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ant-typography {
+    text-align: center;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+/* Media Query for Larger Screens */
+@media screen and (min-width: 768px) {
+    .login-container {
+        max-width: 600px;
+        /* Adjust maximum width for larger screens */
+    }
+}

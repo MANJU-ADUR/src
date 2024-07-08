@@ -1,0 +1,59 @@
+.goal-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: red;
+}
+
+.goal-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.goal-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feedback-section {
+    margin-top: 20px;
+}
+
+.feedback-section p {
+    margin-bottom: 8px;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.ant-select {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.ant-btn-primary {
+    margin-top: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .goal-detail-container {
+        padding: 10px;
+    }
+
+    .goal-details {
+        padding: 15px;
+    }
+
+    textarea {
+        font-size: 12px;
+    }
+}

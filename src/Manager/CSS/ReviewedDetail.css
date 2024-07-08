@@ -1,0 +1,41 @@
+/* ReviewedDetail.css */
+
+.ReviewedDetail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ReviewedDetail h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1890ff;
+}
+
+.ReviewedDetail div {
+    margin-bottom: 10px;
+}
+
+.ReviewedDetail p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Adjust spacing as needed */
+@media (max-width: 768px) {
+    .ReviewedDetail {
+        padding: 15px;
+    }
+
+    .ReviewedDetail h2 {
+        font-size: 20px;
+    }
+
+    .ReviewedDetail p {
+        font-size: 14px;
+    }
+}

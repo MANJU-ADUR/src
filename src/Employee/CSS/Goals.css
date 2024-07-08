@@ -1,0 +1,121 @@
+.goalsdiv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f2f5;
+    /* Light background color */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.options h1 {
+    font-size: 24px;
+    color: #1890ff;
+    /* Blue color */
+}
+
+.options button {
+    padding: 8px 16px;
+    background-color: #1890ff;
+    /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #40a9ff;
+    /* Slightly lighter shade of blue on hover */
+}
+
+.goals {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.goal-card {
+    background-color: #fff;
+    padding: 16px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.goal-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.goal-card.pending {
+    border-left: 4px solid #faad14;
+    /* Yellow color for pending goals */
+}
+
+.goal-card.completed {
+    border-left: 4px solid #52c41a;
+    /* Green color for completed goals */
+}
+
+.goal-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #1890ff;
+    /* Blue color */
+}
+
+.goal-card p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.selected-manager-details {
+    margin-top: 12px;
+}
+
+.selected-manager-details h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.selected-manager-details p {
+    margin: 4px 0;
+    color: #333;
+}
+
+.error-message-container {
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #ff4d4f;
+    /* Red border for error message */
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: #ff4d4f;
+    /* Red color for error message */
+    font-size: 16px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .goal-cards-container {
+        grid-template-columns: 1fr;
+        /* Display goals in a single column on smaller screens */
+    }
+}

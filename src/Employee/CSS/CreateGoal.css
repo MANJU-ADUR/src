@@ -1,0 +1,38 @@
+/* CreateGoal.css */
+
+.creategoal {
+    max-width: 600px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    /* Center align horizontally */
+    padding: 20px;
+}
+
+.creategoal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.creategoal .ant-form-item {
+    margin-bottom: 16px;
+}
+
+.creategoal .ant-picker {
+    width: 100%;
+}
+
+.creategoal .ant-btn {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .creategoal {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .creategoal {
+        padding: 5px;
+    }
+}

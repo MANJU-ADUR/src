@@ -1,0 +1,59 @@
+.emp-goals-container {
+    width: 100%;
+    max-width: 800px;
+    /* Adjust max-width as per your design */
+    margin: 0 auto;
+    /* Center align horizontally */
+    padding: 20px;
+}
+
+.emp-goals-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.goals-list {
+    display: grid;
+    gap: 20px;
+}
+
+.goal-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.goal-card h3 {
+    margin-bottom: 10px;
+}
+
+.goal-card p {
+    margin-bottom: 5px;
+}
+
+.goal-card button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    /* Adjust max-width as needed */
+    margin: 10px auto;
+    /* Center align horizontally with some margin */
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.goal-card button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .goal-card {
+        padding: 10px;
+    }
+}

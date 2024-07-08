@@ -1,0 +1,88 @@
+/* GoalsByEmp.css */
+
+.divv {
+    padding: 20px;
+    background-color: #f0f2f5;
+    /* Example background color */
+}
+
+.empgoals {
+    max-width: 800px;
+    /* Adjust maximum width as needed */
+    margin: 0 auto;
+    /* Center align the content */
+    background-color: white;
+    /* Content background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Example shadow */
+}
+
+.empgoals #error {
+    color: red;
+    text-align: center;
+}
+
+.empgoals h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.goal-cards-container {
+    display: grid;
+    gap: 20px;
+    /* Gap between cards */
+}
+
+.ant-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Example shadow */
+}
+
+.ant-card-head {
+    background-color: #1890ff;
+    /* Header background color */
+    color: white;
+    /* Header text color */
+    font-size: 18px;
+    border-radius: 8px 8px 0 0;
+}
+
+.ant-card-body {
+    padding: 20px;
+}
+
+.ant-card-actions {
+    text-align: right;
+}
+
+.ant-card-actions button {
+    background-color: #1890ff;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ant-card-actions button:hover {
+    background-color: #0050b3;
+    /* Hover background color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .empgoals {
+        padding: 10px;
+    }
+
+    .goal-cards-container {
+        grid-template-columns: 1fr;
+        /* Single column layout on smaller screens */
+    }
+}
