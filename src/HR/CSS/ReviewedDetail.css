@@ -1,6 +1,6 @@
-/* ViewDraft.css */
+/* ReviewedDetail.css */
 
-.ViewDraft {
+.ReviewedDetail {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -10,47 +10,32 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.ViewDraft h2 {
+.ReviewedDetail h2 {
     font-size: 24px;
     margin-bottom: 15px;
     color: #1890ff;
 }
 
-.ViewDraft div {
+.ReviewedDetail div {
     margin-bottom: 10px;
 }
 
-.ViewDraft p {
+.ReviewedDetail p {
     font-size: 16px;
     line-height: 1.6;
 }
 
 /* Adjust spacing as needed */
 @media (max-width: 768px) {
-    .ViewDraft {
+    .ReviewedDetail {
         padding: 15px;
     }
 
-    .ViewDraft h2 {
+    .ReviewedDetail h2 {
         font-size: 20px;
     }
 
-    .ViewDraft p {
+    .ReviewedDetail p {
         font-size: 14px;
     }
-}
-
-.ViewDraft button {
-    background-color: red;
-    color: white;
-    padding: 10px ;
-    border: none;
-    border-radius: 10px;
-}
-.ViewDraft button:hover {
-    background-color: rgb(229, 87, 87);
-    color: white;
-    padding: 10px ;
-    border: none;
-    border-radius: 10px;
 }

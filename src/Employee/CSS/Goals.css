@@ -48,6 +48,11 @@
     gap: 20px;
 }
 
+.goal-cards-container #viewbtn {
+    
+    color: #fff;
+}
+
 .goal-card {
     background-color: #fff;
     padding: 16px;

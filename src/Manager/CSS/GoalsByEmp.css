@@ -19,6 +19,15 @@
     /* Example shadow */
 }
 
+.empgoals button {
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
 .empgoals #error {
     color: red;
     text-align: center;

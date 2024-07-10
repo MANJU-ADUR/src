@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import EmpGoals from './EmpGoals';
 import GoalDetail from './GoalDetail';
 import HrReviewedGoals from "./HrReviewedGoals"
+import ReviewedDetail from './ReviewedDetail';
 
 const HrDashboard = () => {
 
@@ -33,6 +34,7 @@ const HrDashboard = () => {
                 <Route path='/goals' element={<EmpGoals />} />
                 <Route path='/goal-detail/:id' element={<GoalDetail />} />
                 <Route path='/hr-reviewed-goals' element={<HrReviewedGoals />} />
+                <Route path='/reviewed/:id' element={<ReviewedDetail />} />
 
             </Routes>
         </div>

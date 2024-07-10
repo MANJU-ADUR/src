@@ -208,7 +208,7 @@ const GoalDetail = () => {
                 <Option key={hr.id} value={hr.id}>{`${hr.firstname} ${hr.lastname}`} - <b>{hr.email}</b></Option>
               ))}
             </Select>
-            <Button type="primary" onClick={handleNextButtonClick} style={{ marginTop: '1rem' }}>Next</Button>
+            <Button type="primary" onClick={handleNextButtonClick} style={{ marginTop: '1rem' }}>Forward to HR</Button>
 
           </div>
         </div>

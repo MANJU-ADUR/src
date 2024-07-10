@@ -188,7 +188,7 @@ const Goals = () => {
                                         </div> */}
 
 
-                                        <button onClick={() => { viewgoal(goal.id) }} >
+                                        <button id="viewbtn" onClick={() => { viewgoal(goal.id) }} >
                                             View Goal
                                         </button>
                                         {selectedManagers[goal.id] && (
